@@ -155,7 +155,7 @@ def train_classifer(clf, X, y):
 def evalute_classifier(clf, X, y):
     assert is_classifier(clf)
     pred = clf.predict(X)
-    print(classification_report(pred, y))
+    print(classification_report(y, pred))
     #Fill this in
 
 
